@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 30%;
+    height: 300px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    border-radius: 1rem;
+    border-top: 1px solid rgba(153, 153, 153, 0.5);
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(153, 153, 153, 0.5);
+    background-color: rgb(255, 255, 255, 0.05);
+    backdrop-filter: blur(3px);
+
+}
+
+h2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    color: #fff;
+}
+
+#port {
+    text-align: center;
+    padding-top: 40px; 
+}
+
+ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+
+
+#credito {
+     text-align: center;
+     margin-top: 200px;
+    
+}
+
+#fonte-credito {
+    font-size: 1rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#git {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+
+#code {
+    position: absolute;
+    top: 140px;
+    right: 30px;
+}
