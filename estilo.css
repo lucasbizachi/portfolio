@@ -7,19 +7,19 @@
 }
 
 body {
-    background-image: url(fundo.png);
+    background-image: url(fundo_navy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #container {
-    width: 30%;
-    height: 300px;
+    width: 30rem;
+    height: 18.80rem;
     position:relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;
+    margin-top: 8.125rem;
     border-radius: 1rem;
     border-top: 1px solid rgba(153, 153, 153, 0.5);
     border-right: 1px solid rgba(0, 0, 0, 0.5);
@@ -38,17 +38,17 @@ h2 {
 
 #port {
     text-align: center;
-    padding-top: 40px; 
+    padding-top: 2.5rem; 
 }
 
 ul {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 li {
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 a {
@@ -57,11 +57,9 @@ a {
     color: #fff;
 }
 
-
-
 #credito {
      text-align: center;
-     margin-top: 200px;
+     margin-top: 12.5rem;
     
 }
 
@@ -70,18 +68,68 @@ a {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
 }
 
 #git {
     position: absolute;
-    top: 140px;
-    left: 30px;
+    top: 8.75rem;
+    left: 1.875rem;
 }
 
 #code {
     position: absolute;
-    top: 140px;
-    right: 30px;
+    top: 8.75rem;
+    right: 1.875rem;
+}
+
+@media screen and (max-width: 500px) {
+    
+    #container {
+        width: 15rem;
+        height: 25rem;
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8.125rem;
+        border-radius: 1rem;
+        border-top: 1px solid rgba(153, 153, 153, 0.5);
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        border-left: 1px solid rgba(153, 153, 153, 0.5);
+        background-color: rgb(255, 255, 255, 0.05);
+        backdrop-filter: blur(3px);
+    
+    }
+
+
+    img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+    
+    ul {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    
+    li {
+        list-style: none;
+        margin-bottom: 4rem;
+    }
+
+    
+    #git {
+        position: absolute;
+        top: 7rem;
+        left: 6rem;
+    }
+    
+    #code {
+        position: absolute;
+        top: 15rem;
+        right: 6rem;
+    }
+
 }
