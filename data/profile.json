@@ -39,19 +39,17 @@
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+      "Inglês (iniciante)"
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Projeto Python: Construção de Lista de Tarefas com Operações CRUD",
+        "url": "https://github.com/lucasbizachi/twtodo",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Cartão interativo com o tema da pintura Mona Lisa de Leonardo da Vinci.",
+        "url": "https://github.com/lucasbizachi/card-monalisa?tab=readme-ov-file",
         "github": true
       }
     ],
