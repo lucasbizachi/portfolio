@@ -14,7 +14,5 @@ Um projeto de portfolio pessoal para destacar minhas habilidades e projetos.
 - CSS3
 - JavaScript
 
-  ## Licença
-
-Este projeto é licenciado sob a [Nome da Licença](MIT).
+  
 
